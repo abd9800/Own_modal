@@ -1,0 +1,75 @@
+/* Variables */
+ body {
+   background: #efefef;
+}
+ .container {
+   max-width: 960px;
+   margin: 0 auto;
+   text-align: center;
+}
+ #first {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
+   background-size: cover;
+   height: 600px;
+   color: #fff;
+}
+ .content {
+   font-weight: 800;
+   text-transform: uppercase;
+   text-align: center;
+   margin: 100px auto;
+   font-size: 4rem;
+}
+ .content .button {
+   font-size: 2rem;
+   background-color: blue;
+   color: green;
+   border: none;
+   padding: 0.5rem 2rem;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+ .content .button:hover {
+   background-color: grey;
+}
+ .modal {
+   background-color: 0, 0, 0, 1;
+   position: absolute;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ .modal_hide {
+   display: none;
+}
+ .modal_close {
+   display: flex;
+   justify-content: flex-end;
+   margin-right: -2rem;
+   margin-top: -1rem;
+   cursor: pointer;
+}
+ .modal_content {
+   background-color: #fff;
+   padding: 2rem 4rem;
+}
+ .modal_content input[type=text] {
+   width: 100%;
+   padding: 0.5 rem;
+}
+ .modal_content button {
+   width: 100%;
+   padding: 0.5 rem;
+   background-color: blue;
+   color: #fff;
+   border: none;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+ .modal_content button:hover {
+   background-color: grey;
+}
+ 
